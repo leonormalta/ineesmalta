@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+body {
+  overflow: hidden;
+}
+.modal-header {
+  height: 1vw;
+}
+.modal-content {
+  background-color: rgba(255, 255, 255, 255);
+  border: none;
+}
+.modal-body {
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-size {
+  width: 70vw;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.nav1 {
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:link,
+a:visited {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.carousel-control-next {
+  right: -10%;
+  opacity: 1;
+  filter: invert(1);
+}
+.carousel-control-prev {
+  left: -10%;
+  opacity: 1;
+  filter: invert(1);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+a:active {
+  text-decoration: none;
+  color: gray;
+}
+h1 {
+  /* TEXTO PAGINA HOME ENORME */
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  /* TEXTO ABOUT */
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h4 {
+  /* TEXTO NORMAL */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-left {
+  align-items: left;
+}
+#CAPAS:hover {
+  text-decoration: underline;
+  color: gray;
+}
