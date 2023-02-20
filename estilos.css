@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -18,7 +19,6 @@
   justify-content: left;
   align-items: center;
 }
-
 body {
   overflow: hidden;
 }
@@ -30,19 +30,21 @@ body {
   border: none;
 }
 .modal-body {
-  padding: 0;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.text-left {
+  text-align: left;
 }
 .img-size {
   width: 70vw;
   background-size: cover;
   overflow: hidden;
 }
-
 .nav1 {
   font-size: 15px;
   text-align: center;
@@ -97,9 +99,7 @@ h4 {
   vertical-align: middle;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.text-left {
-  align-items: left;
-}
+
 #CAPAS:hover {
   text-decoration: underline;
   color: gray;
